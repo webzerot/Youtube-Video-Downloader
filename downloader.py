@@ -1,7 +1,6 @@
 from pytube import YouTube
 import os
 import threading
-from os import _exit
 from tkinter import *
 
 # sample video : https://www.youtube.com/watch?v=OQ6R4TU5Vwo
