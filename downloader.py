@@ -21,10 +21,13 @@ MAIN_WINDOW = Tk()
 CheckBox_Var = IntVar()
 
 class Status:
+    @staticmethod
     def IDLE():
         return "Status : Idle"
+    @staticmethod
     def STARTING():
         return "Status : Starting"
+    @staticmethod
     def DOWNLOADING():
         return "Status : Downloading"
 
